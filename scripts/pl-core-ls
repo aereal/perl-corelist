@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -ue
+
+base='pl-core-ls'
+perl_version=$(basename $0 | sed -E "s/^${base}-?//")
+
+if [[ -z "${perl_version}" ]]; then
+  echo '! Invalid name' >/dev/stderr
+  exit 1
+fi
+
+corelist -v ${perl_version}
