@@ -1,6 +1,6 @@
 # pl-core-ls
 
-Shortcut for corelist
+Shortcut for corelist(1)
 
 ## Usage
 
@@ -20,5 +20,7 @@ Archive::Tar::Constant                       1.96
 ```
 
 ## See also
+
+[corelist(1)](https://metacpan.org/pod/distribution/Module-CoreList/corelist), [Module::CoreList](https://metacpan.org/pod/Module::CoreList)
 
 Inspired by [motemen/datetime.sh](https://github.com/motemen/datetime.sh)
