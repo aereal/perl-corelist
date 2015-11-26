@@ -6,7 +6,7 @@ Shortcut for corelist(1)
 
 ```
 % ln -s scripts/pl-core-ls pl-5.20.2
-% ./pl-20.2
+% ./pl-5.20.2
 The following modules were in perl 5.20.2 CORE
 AnyDBM_File                                  1.01
 App::Cpan                                    1.62
